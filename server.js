@@ -47,6 +47,6 @@ app.use("/api/bookings/", bookingRoute);
 app.get("/", function (request, response) {
   response.send("Your Server is Working for Hall booking, 🙋‍♂️, 🌏 🎊✨🤩");
 });
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 10000;
 
 app.listen(port, () => console.log(`The server started in: ${port} ✨✨`));
